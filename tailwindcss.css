@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .h-600{
+        height: 600px;
+    }
+    .minwidth-300{
+        min-width: 300px;
+    }
+    .disnone{
+        display:none;
+    }
+    .min-h-350{
+        min-height: 250px
+    }
+
+    @media(min-width: 640px){
+        .navbar_backimg{
+            height: 700px;
+        }
+    }
+}
+
+.l-1 li:hover{
+    @apply text-white border-b-2 border-white;
+}
+
+#gallery img{
+    @apply py-5 sm:py-0;
+}
+
+
+
+
